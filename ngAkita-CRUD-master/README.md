@@ -1,5 +1,5 @@
 # ngAkita-CRUD
-simple Angular 10 CRUD application using Akita as state managment and JSON Server as mock API 
+simple Angular 10 CRUD application using Akita as state managment and AWS table as API 
 ### Tech
 * [Angular v10](https://angular.io/)  -  application design framework and development platform for creating single-page apps
 * [Akita](https://datorama.github.io/akita/) - A Reactive State Management  for JS Applications
