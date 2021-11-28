@@ -1,0 +1,23 @@
+<h3>Add Student</h3>
+
+<form class="form-inline mb-4">
+  <form [formGroup]="this.customerService.customerForm" (submit)="onSubmit()" class="form-inline mb-4">
+    <fieldset [disabled]="isDisabled">
+    <label class="sr-only" for="Id">Id</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="idInput" placeholder="Id">
+    </div>
+  </fieldset>
+    <label class="sr-only" for="Name">Name</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="name" placeholder="name">
+    </div>
+    <label class="sr-only" for="email">Email</label>
+    <div class="input-group mb-2 mr-sm-2">
+      <input type="text" class="form-control" formControlName="email" placeholder="email">
+    </div>
+
+    <button [disabled]="this.customerService.customerForm.invalid" type="submit" class="btn btn-primary mb-2">Add/Update</button>
+    <button (click)="resetform()" type="button" class="btn btn btn-success mb-2">Cancel</button>
+  </form>
+  <br>

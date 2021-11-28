@@ -1,0 +1,11 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Issam Baccouch",
+      "phone": "2020202020",
+      "address": "Kebili , Tunisia",
+      "membership": "Basic"
+    }
+  ]
+}
